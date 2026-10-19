@@ -1,0 +1,18 @@
+# entorno virtual
+/env/
+env/
+
+# variable de entorno
+.env
+
+# Residuos de Python
+__pycache__
+*.pyc
+*.pyo
+
+# QRs generados localmente
+*.png
+*.jpeg
+*.jpg
+*.svg
+*.webp

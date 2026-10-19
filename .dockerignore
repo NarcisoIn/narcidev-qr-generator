@@ -1,0 +1,17 @@
+# Entornos y variables
+env/
+.venv/
+.env
+
+# Residuos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Git y docs (no necesarios en el contenedor)
+.git/
+.github/
+docs/
+infra/
+frontend/
+README.md

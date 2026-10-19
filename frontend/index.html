@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Generador de código QR</title>
+    <meta name="description" content="Esta página es un proyecto personal de NarcisoIn para comprender y válidar su conocimiento en el desarrollo Full Stack">
+    <meta name="keywords" content="HTML, CSS, Javascript, Python, FastAPI, qrgenerator">
+</head>
+<body>
+    <header class="nav-bar">
+        <div id="name">
+            <h1>QR Code Generator</h1>
+        </div>
+    </header>
+
+    <main>
+        <div id="formulario">
+            <section id="form">
+                <form>
+                    <label> Ingresa el URL que deseas convertir en QR:
+                        <input name="url" id="url" type="text" placeholder="https://elurlacovertirqr.com/" required>
+                    </label>
+                    <label> Nombrá del archivo que se generará:
+                        <input name="nombre-archivo" id="nombre-archivo" type="text" placeholder="miarchivo.png" required>
+                    </label>
+                    <button>Generar QR</button>
+                </form>
+            </section>
+        </div>
+        <div id="view-qrcode">
+            <section id="qr-code-view">
+                <img src="/qrcode.png">
+            </section>
+            <button>Descargar código QR</button>
+        </div>
+    </main>
+    
+    <footer>
+        <div id="creditos">
+            <small>&copy; 2026 Sitio creado por NarcisoIn</small>
+        </div>
+        <div id="navegacion">
+            <nav>
+                <a href="https://github.com/NarcisoIn/narcidev-qr-generator" target="_blank" rel="referer">Codigo</a>
+                <a href="https://github.com/NarcisoIn" target="_blank" rel="referer">GitHub</a>
+                <a href="https://www.linkedin.com/in/narciso-dev/" target="_blank" rel="referer">LinkedIn</a>
+                <a href="https://narcisoguzman.com/" target="_blank" rel="referer">Portfolio web</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
